@@ -8,6 +8,7 @@ password.txt
 /web_app/application/logs
 /web_app/vendor/
 _*.cmd
+_*.ps1
 
 #################
 ## Eclipse
