@@ -1,0 +1,155 @@
+
+/* CSS Document */
+
+a.secret, a.secret:hover {
+	text-decoration: none;
+	color: inherit;
+}
+
+body{font:16px/22px trebuchet ms, helvetica, arial, sans-serif; background-color:#EFEED7; color:#000;}
+
+a:link {color: #8a1002; text-decoration: none;}
+a:visited {color:#8a1002;text-decoration: none;}
+a:active {color: #4a1009;text-decoration: underline;}
+a:hover {color: #4a1009;text-decoration: underline;}
+
+hr{border:none; border-bottom:#4a1009 dotted 1px; clear:both; background:none;}
+
+h1, h2, h3, h4, h5, h6{font-family: Georgia, times, serif; text-transform:uppercase; }
+h1{color:#8A1002; font-size:28px;}
+h2{color:#000; font-size:25px;}
+h3{color:#8A1002; font-size:25px;}
+h4{color:#000; font-size:21px;}
+h5{color:#8A1002; font-size:21px;}
+h6{color:#000; font-size:18px;}
+
+.wrapper h1, .wrapper h2, .wrapper h3, .wrapper h4, .wrapper h5, .wrapper h6{line-height:normal;}
+
+.header{background-color: #8a1002; background-image: linear-gradient(to bottom, #a03124,#8a1002); background-repeat: repeat-x;color: #FFFFFF; text-shadow:#4a1009 0px 1px 1px; border-bottom:#f3e655 solid 1px;}
+.logo{padding:30px 0px;}	
+
+.contact_details a, .mobile_contact a{color:#f3e655;}
+.contact_details a:hover, .mobile_contact a:hover{color:#FFF;}
+
+.visible-desktop .contact_details{ display:block; padding-top:45px; text-align:right; font-size:21px; line-height:29px; position:relative;}
+.visible-desktop .contact_details #strapline{font-family: Georgia, times, serif; text-transform:uppercase; padding-bottom:20px;}
+
+.visible-desktop .contact_details label{display:inline;}
+
+.visible-tablet .contact_details #strapline{font-family: Georgia, times, serif; text-transform:uppercase; padding-bottom:10px;}
+.visible-tablet .contact_details{display:block; text-align:right; padding-top:35px; line-height:35px;}
+
+#toptile{background:url(/public/img/top_tile.jpg) repeat-x; height:25px; border-bottom:#f3e655 solid 1px;}
+
+.navigation{
+	background-color: #8a1002; 
+	background-image: linear-gradient(to bottom, #8a1002,#4a1009); 
+	color:#FFF:  margin-top:5px; 
+	border-top:#4a1009 solid 1px;
+	border-bottom:#f3e655 solid 1px; 
+	margin-bottom:20px; 
+	box-shadow:#4a1009 0px 1px 1px; 
+	color:#FFF;
+}
+	
+.navbar-inverse .navbar-inner{background:none !important; border:none;}
+.navigation ul li a{color:#FFF !important;}
+.navigation ul li > a:hover{color:#f3e655 !important;}
+
+.navigation h5{text-indent:-9999px; position:relative; }
+.navigation h5 span.shields{display:block; position:absolute; width:300px; height:77px; background: url(/public/img/shields.png) no-repeat; z-index:10; right:0px; top:-35px; }
+
+.mobile_contact{padding-left:20px; font-size:14px; margin-bottom:5px;}
+.mobile_contact span{display:block; padding-left:20px;}
+.mobile_contact span b span{display:block; float:left; with:14px; height:14px; margin-top:4px;}
+
+.mobile_contact span.email b span{background:url(/public/img/glyphicons-halflings-yellow.png) no-repeat -72px 0px; }
+.mobile_contact span.phone b span{background:url(/public/img/glyphicons-halflings-yellow.png) no-repeat -24px -144px;}
+
+.navbar-inverse .nav li.dropdown.open > .dropdown-toggle, .navbar-inverse .nav li.dropdown.active > .dropdown-toggle, .navbar-inverse .nav li.dropdown.open.active > .dropdown-toggle{background:#4a1009; color:#f3e655;}
+.navbar .dropdown-menu:after, .navbar .dropdown-menu:before {display:none;}
+.navbar .dropdown-menu:after {display:none;}
+.navbar-inverse .nav li.dropdown > a:hover .caret {border-top-color: #f3e655;border-bottom-color: #f3e655;}
+.navbar-inverse .nav li.dropdown > .dropdown-toggle .caret {border-top-color:#FFF;border-bottom-color:#FFF;}
+.navbar-inverse .nav li.dropdown.open > .dropdown-toggle .caret, .navbar-inverse .nav li.dropdown.active > .dropdown-toggle .caret, .navbar-inverse .nav li.dropdown.open.active > .dropdown-toggle .caret {border-top-color: #f3e655;border-bottom-color:#f3e655;}
+.navbar .nav > li > .dropdown-menu:after {border-bottom: 7px solid #4a1009;}
+
+.dropdown-menu {position: absolute;top: 107%;left: 0; z-index: 1000;display: none; float: left;min-width: 160px;padding: 10px 0;margin: 2px 0 0;list-style: none;background-color:#4a1009;border: none;-webkit-border-radius: 5px;-moz-border-radius: 5px;border-radius: 5px;}
+.dropdown-menu li > a { display: block; padding: 3px 20px; clear: both; font-weight: normal; line-height: 20px; color: #fff; white-space: nowrap;}
+.dropdown-menu li > a:hover, .dropdown-menu li > a:focus, .dropdown-submenu:hover > a { color: #000 !important;text-decoration: none; background: #f3e655 !important;}
+.dropdown-menu li {text-align: left;}
+ul.dropdown-menu > li > a:hover{color:#4a1009 !important;}
+
+/*SideBar*/
+
+.bs-docs-sidebar{}
+.bs-docs-sidebar ul{list-style:none; margin:0px; padding:0px;}
+.bs-docs-sidebar ul li{display:block;}
+.bs-docs-sidebar h3{background: url(/public/img/door_icon.png) no-repeat right 5px; padding:3px 0px 3px 0px; border-bottom:#4a1009 dotted 1px; font-size:21px;}
+
+.bs-docs-sidebar ul.times{}
+.bs-docs-sidebar ul.times li{font-weight:bold; color:#8a1002; padding-bottom:5px;}
+.bs-docs-sidebar ul.times li b{font-weight:normal; color:#000;}
+
+.bs-docs-sidebar ul.prices{}
+.bs-docs-sidebar ul.prices li{font-weight:bold;}
+
+.bs-docs-sidebar ul.socialmedia li{padding:0px; 10px; height:37px;}
+.bs-docs-sidebar ul.socialmedia li a{padding-left:45px; height:32px; display:block; padding-top:7px}
+
+.bs-docs-sidebar ul.socialmedia li a.twitter{background:url(/public/img/twitter_off.png) no-repeat;}
+.bs-docs-sidebar ul.socialmedia li a:hover.twitter{background:url(/public/img/twitter_on.png) no-repeat;}
+.bs-docs-sidebar ul.socialmedia li a.flickr{background:url(/public/img/flickr_off.png) no-repeat;}
+.bs-docs-sidebar ul.socialmedia li a:hover.flickr{background:url(/public/img/flickr_on.png) no-repeat;}
+.bs-docs-sidebar ul.socialmedia li a.facebook{background:url(/public/img/facebook_off.png) no-repeat;}
+.bs-docs-sidebar ul.socialmedia li a:hover.facebook{background:url(/public/img/facebook_on.png) no-repeat;}
+.bs-docs-sidebar ul.socialmedia li a.tripadvisor{background:url(/public/img/tripadvisor_off.png) no-repeat;}
+.bs-docs-sidebar ul.socialmedia li a:hover.tripadvisor{background:url(/public/img/tripadvisor_on.png) no-repeat;}
+
+aside, section {background-color: #fff; padding:3px 10px 10px 10px; margin-bottom:10px; overflow:auto;}
+
+/*Tweet*/
+
+.tweet {}
+.tweet ul{list-style:none; margin:0px; padding:0px;}
+.tweet ul li{padding:10px 10px 10px 35px; border-bottom:#4a1009 dotted 1px; background-image: url(/public/img/tweet_icon_red.png); background-position:5px 10px; background-repeat:no-repeat;}
+.tweet ul li.tweet_first{}
+.tweet ul li.tweet_odd{}
+.tweet ul li.tweet_even{}
+
+/*Whats on*/
+
+.whatson{margin-bottom:20px; padding-bottom:10px; width: 100%; border-bottom: #4a1009 dotted 1px;}
+.whatson h4{margin-top:0px; padding:top:0px;}
+.whatson p.when{font-weight:bold; font-size:13px;}
+.whatson .button {float:right;font-size:13px;border:0px;border-radius:5px;background: #8a1002 linear-gradient(to bottom, #8a1002, #4a1009) repeat-x;margin-top:5px;color: #FFF;padding: 2px 10px;text-shadow: #8a1002 0 1px 1px;}
+.morecontent span {display: none;}
+a.morelink {float: right;}
+
+/*blog content*/
+
+.blogContent{}
+
+/* Table */
+
+table, td, th {border:none;}
+tr {border:#4a1009 solid 1px;}
+th {background: #8a1002 linear-gradient(to bottom, #8a1002, #4a1009) repeat-x;padding:10px;color:#fff;font-family: Democratica, Georgia, times, serif; text-transform:uppercase; text-align:left; font-size:22px;}
+td {padding:10px;}
+tbody td:first-child {text-align:center;}
+td a img {margin:auto;}
+
+/* Carousel controls */
+
+.carousel-control {position: absolute; top: 50%; left: 15px; width: 30px; height: 30px; margin-top: -15px; font-weight: 100;line-height: 25px;text-align: center;background: #8a1002;border: 2px solid #f3e655;-webkit-border-radius: 18px;-moz-border-radius: 18px;border-radius: 18px;opacity: 0.5;filter: alpha(opacity=50);color:#FFF;}
+ a.carousel-control{color:#f3e655 !important; font-size:40px;}
+.carousel-caption {position: absolute;right: 0;bottom: 0;left: 0;padding:10px 15px;	background:#8a1002;	opacity: 0.75; filter: alpha(opacity=75);}
+.carousel { border: 15px solid rgb(255, 255, 255); margin-bottom:5px;}
+
+/* footer */
+
+footer{margin-top:30px; padding-top:10px; padding-bottom:10px;}
+
+footer .container{border-top:3px solid #8a1002; padding:20px 0px;}
+
+footer p{}
