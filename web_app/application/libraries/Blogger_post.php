@@ -40,6 +40,7 @@ class Blogger_post  {
 		curl_setopt($ch, CURLOPT_RETURNTRANSFER, TRUE);
         curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, FALSE); // accept the certificate blindly.
 		curl_setopt($ch, CURLOPT_CONNECTTIMEOUT, CURL_TIME_OUT);
+		curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, FALSE); // ignore invalid certificate error which appeared on Azure.
 		ChromePhp::log("https://www.blogger.com/feeds/".BLOGGER_ID."/posts/default/".$postId."?alt=json");
 
 		$feed = curl_exec($ch);
