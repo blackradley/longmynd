@@ -62,3 +62,6 @@ define("TWITTER_CONSUMER_KEY",          getenv('TWITTER_CONSUMER_KEY'));
 define("TWITTER_CONSUMER_SECRET",       getenv('TWITTER_CONSUMER_SECRET'));
 define("TWITTER_USER_TOKEN",            getenv('TWITTER_USER_TOKEN'));
 define("TWITTER_USER_SECRET",           getenv('TWITTER_USER_SECRET'));
+define("SMTP_USER",           			getenv('SMTP_USER'));
+define("SMTP_PASS",						getenv('SMTP_PASS'));
+define("SMTP_DEST",						getenv('SMTP_DEST'));
