@@ -136,9 +136,9 @@ class Fb_graph
 		}
 		else
 		{
-			$closed_text = $this->CI->config->item('closed_text');
+			$closed_text = CLOSED_TEXT;
 			//ChromePhp::log($closed_text);
-			$oc = empty($closed_text)? "Closed" : CLOSED_TEXT;
+			$oc = empty($closed_text)? "Closed" : $closed_text;
 		}
 		return $oc;
 	}
