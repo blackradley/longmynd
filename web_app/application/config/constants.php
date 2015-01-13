@@ -65,3 +65,4 @@ define("TWITTER_USER_SECRET",           getenv('TWITTER_USER_SECRET'));
 define("SMTP_USER",           			getenv('SMTP_USER'));
 define("SMTP_PASS",						getenv('SMTP_PASS'));
 define("SMTP_DEST",						getenv('SMTP_DEST'));
+define("CLOSED_TEXT",					"Open to Schools");

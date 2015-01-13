@@ -24,8 +24,7 @@ class Fb_graph
 		$this->CI =& get_instance();
 		$this->CI->load->driver('cache', array('adapter' => 'file', 'backup' => 'apc'));
 		$this->CI->load->helper('email');
-		$this->CI->config->load('wrekin', false, true);
-		
+	
 		$this->facebookGraph = $this->_getFacebookGraph();
 	}
 	
@@ -139,8 +138,7 @@ class Fb_graph
 		{
 			$closed_text = $this->CI->config->item('closed_text');
 			//ChromePhp::log($closed_text);
-			$oc = empty($closed_text)? "Closed" : $closed_text;
-
+			$oc = empty($closed_text)? "Closed" : CLOSED_TEXT;
 		}
 		return $oc;
 	}
